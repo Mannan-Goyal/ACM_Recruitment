@@ -5,5 +5,5 @@ session_destroy();
 ?>
 <script>
 alert("You have been successfully logged out!");
-window.location="http://localhost/acm_website/admin_login.html";
+window.location="../admin_login.html";
 </script>

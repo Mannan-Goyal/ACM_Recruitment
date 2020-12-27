@@ -13,14 +13,14 @@ if ($connection->query($query) === TRUE) {
   ?>
   <script>
   alert("Data Inserted Successfully!");
-  window.location="http://localhost/acm_website/dashboard.php";
+  window.location="../dashboard.php";
   </script>
   <?php
   } else {
     ?>
     <script>
     alert("Problem Connecting to database!");
-    window.location="http://localhost/acm_website/admin_insert_h.php";
+    window.location="../admin_insert_h.php";
     </script>
     <?php
     }
@@ -29,7 +29,7 @@ if ($connection->query($query) === TRUE) {
     ?>
     <script>
     alert("Username already exists!");
-    window.location="http://localhost/acm_website/admin_insert_h.php";
+    window.location="../admin_insert_h.php";
     </script>
     <?php
     }  

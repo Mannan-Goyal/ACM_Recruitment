@@ -11,14 +11,14 @@ if ($connection->query($query) === TRUE) {
   ?>
   <script>
   alert("Data Deleted Successfully!");
-  window.location="http://localhost/acm_website/dashboard.php";
+  window.location="../dashboard.php";
   </script>
   <?php
   } else {
     ?>
     <script>
     alert("Problem Connecting to database!");
-    window.location="http://localhost/acm_website/del.php";
+    window.location="../del.php";
     </script>
     <?php
     }
@@ -27,7 +27,7 @@ if ($connection->query($query) === TRUE) {
     ?>
     <script>
     alert("No user with this username is present!");
-    window.location="http://localhost/acm_website/del.php";
+    window.location="../del.php";
     </script>
     <?php
     }  

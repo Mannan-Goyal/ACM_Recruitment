@@ -12,7 +12,7 @@ if(mysqli_num_rows($rs)>0)
 ?>
 <script>
 alert("Login Successful");
-window.location="http://localhost/acm_website/admin_insert_h.php";
+window.location="../admin_insert_h.php";
 </script>
 <?php
 }
@@ -20,7 +20,7 @@ else
 {?>
 <script>
 alert("Invalid Username or Password.");
-window.location="http://localhost/acm_website/admin_login.html";
+window.location="../admin_login.html";
 </script>
 <?php
 }
