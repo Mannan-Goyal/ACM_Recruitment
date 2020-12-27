@@ -20,7 +20,7 @@ else
 {?>
 <script>
 alert("Invalid Username or Password.");
-window.location="../admin_login.html";
+window.location="logout.php";
 </script>
 <?php
 }
